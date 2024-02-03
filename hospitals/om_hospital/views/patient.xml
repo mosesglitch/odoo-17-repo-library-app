@@ -150,15 +150,15 @@
             </form>
         </field>
     </record>
-    <!-- 
+    
     <record id="patient_kanban" model="ir.ui.view">
         <field name="name">hospital.patient.kanban</field>
         <field name="model">hospital.patient</field>
         <field name="arch" type="xml">
-            <kanban default_group_by="doctor_id">
+            <kanban default_group_by="gender">
                 <field name="id"/>
                 <field name="image"/>
-                <field name="doctor_id"/>
+                <field name="gender"/>
                 <field name="patient_age"/>
                 <field name="email_id"/>
                 <templates>
@@ -184,7 +184,7 @@
                 </templates>
             </kanban>
         </field>
-    </record> -->
+    </record>
 
     <!--How To Define Search View in Odoo12-->
     <!-- https://www.youtube.com/watch?v=hKigPT7GF7E&list=PLqRRLx0cl0hoJhjFWkFYowveq2Zn55dhM&index=10  -->

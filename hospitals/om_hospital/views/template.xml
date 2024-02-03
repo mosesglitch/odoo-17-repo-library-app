@@ -4,7 +4,8 @@
     <template id="patients_page" name="Hospital Patients">
         <t t-call="website.layout">
             <div class="container">
-                Hey Subscribe the channel .. !
+            <h1>I am grut Mosee</h1>
+                Hey Ilobe webdev
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -18,7 +19,11 @@
                             <tr>
                                 <td>
                                      <t t-esc="patient.patient_name"/>
+
                                 </td>
+                                <td>
+                                     <t t-esc="patient.patient_age"/>
+                            </td>
                             </tr>
                         </t>
                     </tbody>
